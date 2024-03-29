@@ -6,7 +6,10 @@ const NavBar = () => {
     <div className='divFooterMaster'>
       <div className='divFooter'>
         <div className='div-logo'>
-          <img className='logo'
+          <img 
+                style={{
+                  height: 100
+                }}
           src="https://png.pngtree.com/png-vector/20221217/ourmid/pngtree-example-sample-grungy-stamp-vector-png-image_15560590.png" 
           alt="Exemple"/>
         </div>

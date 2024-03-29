@@ -10,7 +10,7 @@
             height: 4em;
             display: inline-flex;
             .logo {
-                height: 100%;
+                //height: 100%;
             }
         }
         .div-options {
@@ -20,6 +20,7 @@
             font-size: medium;
 
             .btn-options {
+                font-size: 1.3vw;
                 letter-spacing: 0;
                 background-color: transparent;
                 color: rgb(185, 185, 185);
@@ -31,6 +32,7 @@
             .btn-options:after,
             .btn-options:before {
               backface-visibility: hidden;
+              color: #fff;
               border: 1px solid rgba(#fff, 0);
               bottom: 0px;
               content: " ";
@@ -44,6 +46,7 @@
             .btn-options:hover:after,
             .btn-options:hover:before {
               backface-visibility: hidden;
+              color: #fff;
               border-color: #fff;
               transition: width 350ms ease-in-out;
               width: 100%;
