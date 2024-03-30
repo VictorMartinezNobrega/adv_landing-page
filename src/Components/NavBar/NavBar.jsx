@@ -2,8 +2,8 @@ import "./NavBar.css"
 
 const NavBar = () => {
   return (
-    <div className='divFooterMaster'>
-      <div className='divFooter'>
+    <div className='.w-auto'>
+      <div className='.flex .bg-gold .flex-col'>
         <div className='div-logo'>
           <img 
                 style={{
