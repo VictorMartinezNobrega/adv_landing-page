@@ -3,8 +3,8 @@ import "./NavBar.css"
 const NavBar = () => {
   return (
     <div className='.w-auto'>
-      <div className='.flex .bg-gold .flex-col'>
-        <div className='div-logo'>
+      <div className='.flex .bg-gold .flex-col .items-center'>
+        <div className='.h-24 .inline-flex'>
           <img 
                 style={{
                   height: 100
