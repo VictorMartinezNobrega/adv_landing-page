@@ -1,60 +1,38 @@
-.divFooterMaster {
-    width: auto;
+.btn-options {
+    font-size: 1.3vw;
+    letter-spacing: 0;
+    background-color: transparent;
+    color: rgb(185, 185, 185);
+    padding: 0.5em;
+    margin: 0% 2.5em;
+    cursor: pointer;
 }
-    .divFooter {
-        background-color: #1e2127;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-        .div-logo{
-            height: 4em;
-            display: inline-flex;
+.btn-options:after,
+.btn-options:before {
+    backface-visibility: hidden;
+    color: #fff;
+    border: 1px solid rgba(#fff, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
 
-        }
+.btn-options:hover:after,
+.btn-options:hover:before {
+    backface-visibility: hidden;
+    color: #fff;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 100%;
+}
 
-        .div-options {
-            display: flex;
-            flex-direction: row;
-            padding: 1em 0%;
-            font-size: medium;
-        }
-            .btn-options {
-                font-size: 1.3vw;
-                letter-spacing: 0;
-                background-color: transparent;
-                color: rgb(185, 185, 185);
-                padding: 0.5em;
-                margin: 0% 2.5em;
-                cursor: pointer;
-            }
-            
-            .btn-options:after,
-            .btn-options:before {
-              backface-visibility: hidden;
-              color: #fff;
-              border: 1px solid rgba(#fff, 0);
-              bottom: 0px;
-              content: " ";
-              display: block;
-              margin: 0 auto;
-              position: relative;
-              transition: all 280ms ease-in-out;
-              width: 0;
-            }
-            
-            .btn-options:hover:after,
-            .btn-options:hover:before {
-              backface-visibility: hidden;
-              color: #fff;
-              border-color: #fff;
-              transition: width 350ms ease-in-out;
-              width: 100%;
-            }
-            
-            .btn-options:hover:before {
-              bottom: auto;
-              top: 0;
-              width: 100%;
-            }
+.btn-options:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 100%;
+}
