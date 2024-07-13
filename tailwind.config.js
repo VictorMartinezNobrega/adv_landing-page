@@ -1,4 +1,4 @@
-import plugin from 'tailwindcss'
+//import plugin from 'tailwindcss'
 
 /** @type {import('tailwindcss').Config} */
 export default {
