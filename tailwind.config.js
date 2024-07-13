@@ -1,3 +1,5 @@
+import plugin from 'tailwindcss'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -10,8 +12,7 @@ export default {
         'blue-dark': '#090831',
         'blue-regular': '#082d4a',
         'blue-light': '#07445f',
-        'gold': '#efce78',
-        'grayLabel': '#b9b9b9'
+        'gold': '#efce78'
       }
     },
   },

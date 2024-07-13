@@ -1,23 +1,9 @@
-import './Home.css';
+import Hero from "../../Components/Hero/Hero";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">       
-      <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="max-w-[1280px] m-auto px-8">
+      <Hero />
+    </main>
   );
 }
-
-export default App;
