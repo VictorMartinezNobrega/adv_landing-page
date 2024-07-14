@@ -4,7 +4,7 @@ import Contact from "../../Components/Contact/Contact";
 
 export default function App() {
   return (
-    <main className="max-w-[1280px] m-auto px-8">
+    <main className="m-auto">
       <Hero />
       <Contact />
       { /*<OfficeAddress />*/}

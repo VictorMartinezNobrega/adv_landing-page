@@ -1,4 +1,5 @@
-import "./NavBar.css"
+import "./NavBar.css";
+import Logo from "../../assets/Logo.png";
 
 const NavBar = () => {
   return (
@@ -6,7 +7,7 @@ const NavBar = () => {
       <div className='flex bg-blue-dark flex-col items-center'>
         <div className='h-24 inline-flex'>
           <img className="h-24"
-            src="https://png.pngtree.com/png-vector/20221217/ourmid/pngtree-example-sample-grungy-stamp-vector-png-image_15560590.png"
+            src={Logo}
             alt="Exemple" />
         </div>
         <div className='flex flex-row py-1 text-xs' >

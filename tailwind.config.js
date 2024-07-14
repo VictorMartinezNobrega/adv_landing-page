@@ -12,7 +12,8 @@ export default {
         'blue-dark': '#090831',
         'blue-regular': '#082d4a',
         'blue-light': '#07445f',
-        'gold': '#efce78'
+        'gold': '#efce78',
+        'bg-gray': '#B9B9B9'
       }
     },
   },
