@@ -1,5 +1,5 @@
-import Tribunal from "../../assets/tribunal.jpg";
-import Balanca from "../../assets/balanca edit.png";
+import Tribunal from "../../assets/Images/tribunal.jpg";
+import Balanca from "../../assets/Images/balanca edit.png";
 
 export default function Hero() {
   return (

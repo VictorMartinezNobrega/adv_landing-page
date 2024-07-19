@@ -1,7 +1,7 @@
 import ShadowBoxes from "../ShadowBoxes/ShadowBoxes";
-import adv1 from '../../assets/adv1.jpg';
-import adv2 from '../../assets/adv2.jpg';
-import adv3 from '../../assets/adv3.jpg';
+import adv1 from '../../assets/Images/adv1.jpg';
+import adv2 from '../../assets/Images/adv2.jpg';
+import adv3 from '../../assets/Images/adv3.jpg';
 
 export default function WhoWeAre(){
     return (
